@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSKAN - Develper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 41);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(129, 129, 213);
+            font-size: 1.01rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 50px 0;
+        }
+
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn {
+            padding:12px;
+            background-color: #1e2167;
+            color:white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 30px 0;
+
+        }
+
+        .purple {
+            color: rgb(110, 76, 142);
+        }
+
+        #element {
+            color: rgb(110, 76, 142);
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+            HEIGHT: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .text-our {
+            color: rgb(110, 76, 142);
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background: white;
+            margin: 0 180px;
+        }
+
+        .image-top {
+            width: 45px;
+            position: relative;
+            top: -50px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        .thirdsection {
+            HEIGHT: 92vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px 70px;
+        }
+
+        .fourthsection {
+            HEIGHT: 92vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px 50px;
+        }
+
+        .forthsection>div {
+            width: 30px;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            height: 223px
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Muskan's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">SKILLS</a></li>
+                    <li><a href="/">EDUCATION</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi....My name is <span class="purple">MUSKAN .</span>
+                <DIV>I am a passionate</DIV>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection"><img src="image.png" alt=""></div>
+        </section>
+        <HR>
+        <section class="secondsection">
+            <span class="text-gray">EXPERTISE-IN</span>
+            <h1><span class="text-our">MY</span> SKILLS</h1>
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="web.jpeg" alt="">
+                    <div class="vertical-title">WEB DEVELOPER </div>
+                    <DIV class="vertical-desc">I AM A WEB DEVELOPER WITH EXPERTISE IN HTML, CSS, JAVASCRIPT.
+                        SKILLED IN FRONTEND DEVELOPMENT AND PASSIONATE ABOUT CREATING USER FRIENDLY WEBSITES
+                        AND STAYING UPTED IN LATEST TRENDS.
+                    </DIV>
+                </div>
+                <div class="vertical"><img class="image-top" src="c++.jpeg" alt="">
+                    <div class="vertical-title">C++ PROGRAMMER</div>
+                    <div class="vertical-desc"> I AM A C++ PROGRAMMER WITH EXPERTISE IN PROBLEM-SOLVING , DATA STRUCTURE
+                        AND ALGORITHUM.
+                        SKILLED IN C++ PROGRAMMING AND PASSIONATE TO SOLVE THE COADING-PROBLEMS
+                        AND STAY UPDATED IN LATEST TRENDS.
+                    </div>
+
+                </div>
+                <div class="vertical"><img class="image-top" src="digi.png" alt="">
+                    <div class="vertical-title">DIGITAL MARKETING</div>
+                    <div class="vertical-desc"> EXPERINCED DIGITAL MARKETER ADEPET AT OPTIMIZING ONLINE
+                        STRATEGIES TO DELEVER MAGERABLE RESULTS AND ENHANCED BRAND PRESENTS.
+                    </div>
+                </div>
+        </section>
+        <hr>
+        <!-- About Start -->
+        <div class="container-fluid py-5" id="about">
+            <div class="container">
+                <div class="position-relative d-flex align-items-center justify-content-center">
+                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;"></h1>
+                    <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 pb-4 pb-lg-0">
+                        <img class="img-fluid rounded w-100" src="web.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="mb-4">Programmer & Web Developer</h3>
+                        <p> Muskan . I am a web developer . I am currently working in some projects. I am keen to learn
+                            new things.</p>
+                        <p> and also working in c++ programming and DATA structure and Algorithm.</p>
+                        <P> I also have interest in digital marketing and i am learning new skills in this field.</p>
+                        <p>and also have completed mysql with basic knowledge in DBMS.</p>
+                        <div class="row-mb-3">
+                            <div class="col-sm-6 py-2">
+                                <h6>Name: <span class="text-secondary">MUSKAN</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Birthday: <span class="text-secondary">1 FEB 2004</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Degree: <span class="text-secondary">BACHLO</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Experience: <span class="text-secondary">0 YEARS</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Phone: <span class="text-secondary">8059674981</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Email: <span class="text-secondary">muskanrana680@gmail.com</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Address: <span class="text-secondary">BAL-PABANA (KARNAL)</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Freelance: <span class="text-secondary">Available</span></h6>
+                            </div>
+                        </div>
+                        <a href="" class="btn blue btn-outline-primary mr-4">Hire Me</a>
+                        <a href="" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section class="fourthsection">
+            <h1><span class="text-our">EDUCATION </span> AND <br> QUALIFICATION</h1>
+            <div class="education-section">
+                <h2>B.TECH [COMPUTER SCIENCE AND ENGINEERING]</h2>
+                <H3>BHAGAT PHOOL SINGH MAHILA VISHWAVIDYALAYA , KHANPUR(SONIPAT)</H3>
+                <P> Currently I am pursuing in B.tech 3rd year . My graducation will completed in 2025.</P>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>MUSKAN'S DEVELOPER PORTFOLIO</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                    <li>EDUCATION</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                    <li>EDUCATION</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                    <li>EDUCATION</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;muskanportfolio.com | ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER.', 'WEB DESIGNER.', 'C++ PROGRAMMER.', 'GRAPHIC DESIGNER'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
